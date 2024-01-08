@@ -1,0 +1,134 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    cursor:pointer;
+}
+
+header{
+    color: #17233D;
+    margin: 40px;
+}
+
+.link{
+    padding: 20px;
+    text-decoration: none;
+    cursor: grab;
+}
+
+.button-1{
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #ffffff;
+    cursor: grab;
+}
+
+img{
+    width:595.18px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 100px;
+}
+
+main{
+    display: inline-block;
+    
+}
+
+section{
+    display: inline-block;
+    margin-left:90px ;
+    
+}
+
+h1{
+    color: #161A49;
+    width:582px ;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height:75px;
+    margin-bottom: 30px;
+    text-shadow: 10px 5px 1px #DAFFCD;
+}
+
+p{
+    color: #4B505A;
+    font-weight: 400;
+    font-size: 18px;
+    width: 493px;
+    height: 99px;
+    line-height:33px;
+    margin-bottom: 30px;
+    
+}
+
+.link-2{
+    color:#6FBF44 ;
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size:18px;
+    line-height: 100px;
+    display: inline-block;
+    letter-spacing: 1px;
+    cursor: grab;
+}
+
+@media screen and (max-width:700px){
+    header{
+        margin: 0;
+        padding: 0;
+    }
+
+    img{
+        margin: 0;
+        width: 312px;
+        height: 288px;
+        position: absolute;
+        top: 495px;
+        left: 45px;
+    }
+
+    section{
+        margin: 0;
+        text-align: center;
+    }
+
+    h1{
+    font-size: 30px;
+    width: 278px;
+    line-height: 30px;
+    height: 60px;
+    margin-bottom: 29px;
+    margin-left: 55px;
+    margin-top: 95px;
+    }
+
+    p{
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        margin-bottom: 50px;
+        margin-left: 45px;
+        
+    }
+
+    .button-1{
+        margin-left: 252px;
+        margin-top: 30px;
+    }
+
+    .link{
+        display: none;
+    }
+
+    .link-2{
+        margin-left: 46px;
+    }
+}
