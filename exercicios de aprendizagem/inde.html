@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario login</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <form action="#dlfd" method="post">
+        <label for="nome">nome de usuario:</label>
+        <input type="text" name="nome" id="nome" autocomplete="username" required autofocus>
+        <label for="senha">senha:</label>
+        <input type="password" name="password" id="senha" required autofocus autocomplete="current-password">
+        <button type="submit">login</button>
+    </form>
+    <script>
+      function validateForm(event) {
+        event.preventDefault();
+        
+        var username = document.getElementById('username').value;
+        var password = document.getElementById('password').value;
+        var errorMessage = document.getElementById('error-message');
+  
+        if (username === '' || password === '') {
+          errorMessage.textContent = 'Por favor, preencha ambos os campos.';
+        } else {
+          errorMessage.textContent = '';
+          // Aqui você pode adicionar lógica adicional, como enviar dados para um servidor ou realizar autenticação no lado do cliente.
+          alert('Login bem-sucedido!');
+        }
+      }
+    </script>
+</body>
+</html>
