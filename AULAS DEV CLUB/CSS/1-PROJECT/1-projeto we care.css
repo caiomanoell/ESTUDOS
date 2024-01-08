@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+header {
+    text-transform: uppercase;
+    padding: 44px;
+}
+
+a {
+    margin-right: 23px;
+    color: #989D9C;
+    height: 29px;
+    width: 79px;
+    cursor: grab;
+    text-decoration: none;
+    
+}
+
+.button-1 {
+    border-radius: 50px;
+    width: 100px;
+    height: 41px;
+    background: #665AE1;
+    color: #ffffff;
+    border: none;
+    cursor: grab;
+}
+
+.button-2 {
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    background: #ADFF00;
+    color: #000000;
+    border: none;
+    cursor: grab;
+    font-weight: 700;
+    font-size: 20px;
+    
+    
+    
+}
+
+.logo-image {
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 100px;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 100px;
+    height: 122px;
+    width: 513px;
+    line-height: 121.9px;
+    color: #515151;
+    text-shadow: 8px 5px 5px #91C8EB;
+}
+
+    h2{
+        font-weight: 500 ;
+        font-size: 58px;
+        line-height: 70.7px;
+        width: 448px;
+        right: 71px;
+        color:#515151 ;
+        
+    }
+
+    p{
+    width: 515px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #848484;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    }
+
+    section{
+        display: inline-block;
+    }
+
+    @media screen and (max-width:900px){
+        header{
+            display: none;
+        }
+
+        .logo-image{
+            width: 354px;
+            height: 317px;
+            margin-left: 15px;
+            margin-top: 20px;
+        }
+
+        h1{
+            
+            font-size: 50px;
+           margin-left: 65px;
+        }
+        p{
+            display: none;
+        }
+    
+        h2{
+            font-size: 30px;
+            margin-left: 65px;
+           
+        }
+
+        .button-2{
+           margin-left: 95px;
+        }
+
+
+        
+    }
