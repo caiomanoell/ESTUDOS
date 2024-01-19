@@ -13,24 +13,8 @@
         <input type="text" name="nome" id="nome" autocomplete="username" required autofocus>
         <label for="senha">senha:</label>
         <input type="password" name="password" id="senha" required autofocus autocomplete="current-password">
-        <button type="submit">login</button>
+        <button type="reset">login</button>
     </form>
-    <script>
-      function validateForm(event) {
-        event.preventDefault();
-        
-        var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
-        var errorMessage = document.getElementById('error-message');
-  
-        if (username === '' || password === '') {
-          errorMessage.textContent = 'Por favor, preencha ambos os campos.';
-        } else {
-          errorMessage.textContent = '';
-          // Aqui você pode adicionar lógica adicional, como enviar dados para um servidor ou realizar autenticação no lado do cliente.
-          alert('Login bem-sucedido!');
-        }
-      }
-    </script>
-</body>
+   </body> 
+<script src="script.js"></script>
 </html>
